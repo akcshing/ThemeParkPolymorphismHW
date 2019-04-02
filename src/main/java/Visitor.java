@@ -9,4 +9,17 @@ public class Visitor {
         this.height = height;
         this.money = money;
     }
+
+    public int getAge(){
+        return this.age;
+    }
+
+    public int getHeight(){
+        return this.height;
+    }
+
+    public int getMoney(){
+        return this.money;
+    }
+
 }
