@@ -1,3 +1,4 @@
+import themeparkStuff.Visitor;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -24,7 +25,7 @@ public class VisitorTest {
 
     @Test
     public void canGetMoney(){
-        assertEquals(20, visitor.getMoney());
+        assertEquals(20, visitor.getMoney(), 0.01);
     }
 
 }

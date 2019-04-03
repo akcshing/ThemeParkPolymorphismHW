@@ -1,10 +1,12 @@
+package themeparkStuff;
+
 public class Visitor {
 
     private int age;
     private int height;
-    private int money;
+    private double money;
 
-    public Visitor(int age, int height, int money){
+    public Visitor(int age, int height, double money){
         this.age = age;
         this.height = height;
         this.money = money;
@@ -18,7 +20,7 @@ public class Visitor {
         return this.height;
     }
 
-    public int getMoney(){
+    public double getMoney(){
         return this.money;
     }
 
